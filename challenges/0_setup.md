@@ -36,3 +36,47 @@ hotels:x:3001:fullerton
 [root@servaed-1 ~]# grep shops /etc/group
 shops:x:2001:raffles
 ```
+
+```
+[root@servaed-2 ~]# grep raffles /etc/passwd
+raffles:x:2000:2000::/home/raffles:/bin/bash
+[root@servaed-2 ~]# grep fullerton /etc/passwd
+fullerton:x:3000:3000::/home/fullerton:/bin/bash
+[root@servaed-2 ~]# grep hotels /etc/group
+hotels:x:3001:fullerton
+[root@servaed-2 ~]# grep shops /etc/group
+shops:x:2001:raffles
+```
+
+```
+[root@servaed-3 ~]# grep raffles /etc/passwd
+raffles:x:2000:2000::/home/raffles:/bin/bash
+[root@servaed-3 ~]# grep fullerton /etc/passwd
+fullerton:x:3000:3000::/home/fullerton:/bin/bash
+[root@servaed-3 ~]# grep hotels /etc/group
+hotels:x:3001:fullerton
+[root@servaed-3 ~]# grep shops /etc/group
+shops:x:2001:raffles
+```
+
+```
+[root@servaed-4 ~]# grep raffles /etc/passwd
+raffles:x:2000:2000::/home/raffles:/bin/bash
+[root@servaed-4 ~]# grep fullerton /etc/passwd
+fullerton:x:3000:3000::/home/fullerton:/bin/bash
+[root@servaed-4 ~]# grep hotels /etc/group
+hotels:x:3001:fullerton
+[root@servaed-4 ~]# grep shops /etc/group
+shops:x:2001:raffles
+```
+
+```
+[root@servaed-5 ~]# grep raffles /etc/passwd
+raffles:x:2000:2000::/home/raffles:/bin/bash
+[root@servaed-5 ~]# grep fullerton /etc/passwd
+fullerton:x:3000:3000::/home/fullerton:/bin/bash
+[root@servaed-5 ~]# grep hotels /etc/group
+hotels:x:3001:fullerton
+[root@servaed-5 ~]# grep shops /etc/group
+shops:x:2001:raffles
+```
