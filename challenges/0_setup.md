@@ -22,15 +22,11 @@ openlogic            CentOS-6 - openlogic packages for x86_64                32
 updates              CentOS-6 - Updates                                     825
 repolist: 7,616
 ```
-
 ```
 [root@servaed-1 ~]# grep raffles /etc/passwd
 raffles:x:2000:2000::/home/raffles:/bin/bash
 [root@servaed-1 ~]# grep fullerton /etc/passwd
 fullerton:x:3000:3000::/home/fullerton:/bin/bash
-```
-
-```
 [root@servaed-1 ~]# grep hotels /etc/group
 hotels:x:3001:fullerton
 [root@servaed-1 ~]# grep shops /etc/group
